@@ -28,6 +28,31 @@ Remember, this assessment is designed to be a conversation starter for our techn
 
 **Objective:** Use an LLM for data processing.
 
+## Task:
+
+Load the dataframe “ex1/job_postings.csv” containing some jobs descriptions for different positions and design a prompt to extract the salary range, job title and location for each of them. Return a structured output in JSON format.
+
+NOTE: You can use any LLM that you have a subscription for like OpenAI, o maybe one running on your laptop with OLlama. If you don’t have any of this, you can use Hugging Face Inference Servers (Note that there is a maximun number of times you can call this service). For that, you will need to create an account and an Access token:
+
+1. Go to https://huggingface.co/
+2. On the right corner you can find a ‘Sign up’ buttton, clink on it.
+3. Provide you email and password. Click ‘Next’ and complete your profile ( with Username and Full name should be enough) and click ‘Create Account’ button.
+4. You can generate an avatar, or skip it.
+5. Check your email address, you must have receive a confirmation link from Hugging Face. Confirm it.
+
+Create your Access Token:
+
+1. Once you are log into Hugging Face, go to the right corner and click on your avatar ( circle on the top right corner.
+2. Go to Access Tokens
+3. Click Create new token button.
+
+    a. Select ‘Read’ as Token type.
+
+    b. Add the token name you want like IBM_interview.
+
+    c. Click “Create token”
+
+
 
 # Exercise 2: Vector Embeddings & Semantic Search
 
