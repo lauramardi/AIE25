@@ -35,7 +35,7 @@ Remember, this assessment is designed to be a conversation starter for our techn
 
 ## Task:
 
-1. Generate embeddings using an existing model for each document/paragraph in `/ex2` *(Pendiente repo rellenar esa carpeta)*.
+1. Generate embeddings using an existing model for each document/paragraph in `/ex2`
 2. Use a vector DB to index these embeddings.
 3. Demonstrate a simple search: retrieve the top-5 most similar passages given a query.
 4. Discuss scaling approaches for larger datasets.
